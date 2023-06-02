@@ -1,4 +1,4 @@
-const roman = {
+const roman: any = {
     "I": 1,
     "V": 5,
     "X": 10,
@@ -20,3 +20,5 @@ function romanToInt(s: string): number {
     })
     return result
 };
+
+console.log(romanToInt('II'));
