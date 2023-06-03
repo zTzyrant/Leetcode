@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/two-sum/description/
+// Two Sum https://leetcode.com/problems/two-sum/description/
 
 function twoSum(nums: number[], target: number): number[] {
     let result: any[] = []
